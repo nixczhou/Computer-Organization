@@ -1,3 +1,7 @@
+Architecture
+![alt text](https://github.com/nixczhou/Computer-Organization/blob/master/Lab1/images/arc.JPG)
+
+
 Description
 
 1. This code uses sequential circuit one catch one by cout.  
