@@ -26,7 +26,7 @@ module alu(
            src1,          // 32 bits source 1          (input)
            src2,          // 32 bits source 2          (input)
            ALU_control,   // 4 bits ALU control input  (input)
-           bonus_control, // 3 bits bonus control input(input) 
+		   bonus_control, // 3 bits bonus control input(input) 
            result,        // 32 bits result            (output)
            zero,          // 1 bit when the output is 0, zero must be set (output)
            cout,          // 1 bit carry out           (output)
@@ -51,9 +51,8 @@ reg             cout;
 reg             overflow;
 wire 	 [31:0] result_;
 wire     [31:0] cout_;
-wire back_edge;
 
-alu_top _0(src1[0], src2[0], back_edge, ALU_control[3], ALU_control[2], ALU_control[3] ^ ALU_control[2], ALU_control[1:0], result_[0], cout_[0]);
+alu_top _0(src1[0], src2[0], rst_n, ALU_control[3], ALU_control[2], ALU_control[3] ^ ALU_control[2], ALU_control[1:0], result_[0], cout_[0]);
 alu_top _1(src1[1], src2[1], 0, ALU_control[3], ALU_control[2], cout_[0], ALU_control[1:0], result_[1], cout_[1]);
 alu_top _2(src1[2], src2[2], 0, ALU_control[3], ALU_control[2], cout_[1], ALU_control[1:0], result_[2], cout_[2]);
 alu_top _3(src1[3], src2[3], 0, ALU_control[3], ALU_control[2], cout_[2], ALU_control[1:0], result_[3], cout_[3]);
@@ -93,7 +92,9 @@ alu_top _29(src1[29], src2[29], 0, ALU_control[3], ALU_control[2], cout_[28], AL
 alu_top _30(src1[30], src2[30], 0, ALU_control[3], ALU_control[2], cout_[29], ALU_control[1:0], result_[30], cout_[30]);
 alu_top _31(src1[31], src2[31], 0, ALU_control[3], ALU_control[2], cout_[30], ALU_control[1:0], result_[31], cout_[31]);
 
-assign back_edge = (src1[31]^(~src2[31])^cout_[30]);  // the back edge feed back to the first one-bit alu
+
+assign rst_n = (src1[31]^(~src2[31])^cout_[30]);  // the back edge feed back to the first one-bit alu
+
 
 always @(*)
 begin
