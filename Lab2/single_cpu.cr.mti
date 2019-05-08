@@ -1,0 +1,99 @@
+C:/Users/Nico/Desktop/cpu/Zero_Filled.v {1 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/Zero_Filled.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Zero_Filled
+
+Top level modules:
+	Zero_Filled
+
+} {} {}} C:/Users/Nico/Desktop/cpu/TestBench.v {2 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/TestBench.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module TestBench
+** Warning: C:/Users/Nico/Desktop/cpu/TestBench.v(87): (vlog-2252) Missing initializer in "FOR" statement.
+
+** Warning: C:/Users/Nico/Desktop/cpu/TestBench.v(87): (vlog-2252) Missing incrementer in "FOR" statement.
+
+
+Top level modules:
+	TestBench
+
+} {} {}} C:/Users/Nico/Desktop/cpu/Adder.v {1 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/Adder.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} C:/Users/Nico/Desktop/cpu/Sign_Extend.v {1 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/Sign_Extend.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Sign_Extend
+
+Top level modules:
+	Sign_Extend
+
+} {} {}} C:/Users/Nico/Desktop/cpu/Mux3to1.v {1 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/Mux3to1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux3to1
+
+Top level modules:
+	Mux3to1
+
+} {} {}} C:/Users/Nico/Desktop/cpu/Reg_File.v {1 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/Reg_File.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Reg_File
+
+Top level modules:
+	Reg_File
+
+} {} {}} C:/Users/Nico/Desktop/cpu/Shifter.v {1 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/Shifter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Shifter
+
+Top level modules:
+	Shifter
+
+} {} {}} C:/Users/Nico/Desktop/cpu/Program_Counter.v {1 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/Program_Counter.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Program_Counter
+
+Top level modules:
+	Program_Counter
+
+} {} {}} C:/Users/Nico/Desktop/cpu/Instr_Memory.v {1 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/Instr_Memory.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Instr_Memory
+
+Top level modules:
+	Instr_Memory
+
+} {} {}} C:/Users/Nico/Desktop/cpu/Mux2to1.v {1 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/Mux2to1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Mux2to1
+
+Top level modules:
+	Mux2to1
+
+} {} {}} C:/Users/Nico/Desktop/cpu/ALU.v {1 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/ALU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Full_adder
+-- Compiling module ALU_1bit
+-- Compiling module ALU_bit31
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/Nico/Desktop/cpu/Simple_Single_CPU.v {1 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/Simple_Single_CPU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Simple_Single_CPU
+
+Top level modules:
+	Simple_Single_CPU
+
+} {} {}} C:/Users/Nico/Desktop/cpu/ALU_Ctrl.v {1 {vlog -work work -stats=none C:/Users/Nico/Desktop/cpu/ALU_Ctrl.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU_Ctrl
+
+Top level modules:
+	ALU_Ctrl
+
+} {} {}}
